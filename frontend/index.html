@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Script to Reel Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>AI Script to Reel Generator</h1>
+    <p>This tool helps to convert simple idea into reel plan.</p>
+
+    <!-- user enters reel idea here -->
+    <textarea id="idea" rows="5" cols="50" 
+    placeholder="Enter your reel idea here..."></textarea>
+    <br>
+    <br>
+
+    <!-- selecting type of reel -->
+    <label>Reel Type:</label>
+    <select id="type">
+        <option>Educational</option>
+        <option>Motivational</option>
+        <option>Funny</option>
+        <option>Product Promotion</option>
+    </select>
+    <br>
+    <br>
+
+    <!-- selecting duration -->
+    <label>Duration:</label>
+    <select id="time">
+        <option>30 seconds</option>
+        <option>60 seconds</option>
+    </select>
+    <br>
+    <br>
+
+    <!-- button to generate script -->
+    <button id="generate">Generate</button>
+    <hr>
+    <h2>Output</h2>
+
+    <!-- generated content will show here -->
+    <div id="output"></div>
+    <script src="script.js"></script>
+</body>
+</html>
