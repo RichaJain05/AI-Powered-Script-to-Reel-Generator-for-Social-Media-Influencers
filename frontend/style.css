@@ -1,0 +1,46 @@
+/* simple styling for the page */
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+/* heading style */
+h1{
+    color: #333;
+}
+
+/* textarea styling */
+textarea{
+    width: 60%;
+    padding: 10px;
+}
+
+/* dropdown styling */
+select{
+    padding: 5px;
+    margin: 5px;
+}
+
+/* button style */
+button{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* button hover effect */
+button:hover{
+    background-color: #45a049;
+}
+
+/* output box */
+#output{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: white;
+}
