@@ -10,24 +10,32 @@ document.getElementById("generate").addEventListener("click", function(){
         return;
     }
 
-    // simple sample output
-    let result = `
-    <h3>Reel Plan</h3>
+    
+    // show loading text
+    document.getElementById("output").innerHTML = "Generating reel plan...";
 
-    <p><b>Hook:</b> Start the video with an interesting question.</p>
+    // small delay to simulate processing
+    setTimeout(function(){
 
-    <p><b>Scene 1:</b> Introduce the topic.</p>
+        // simple sample output
+        let result = `
+        <h3>Reel Plan</h3>
 
-    <p><b>Scene 2:</b> Explain the main point.</p>
+        <p><b>Hook:</b> Start the reel with a question to grab attention.</p>
 
-    <p><b>Scene 3:</b> Give quick tip or example.</p>
+        <p><b>Scene 1:</b> Introduce the topic briefly.</p>
 
-    <p><b>Caption:</b> ${idea} - Try this today!</p>
+        <p><b>Scene 2:</b> Explain the main idea or tip.</p>
 
-    <p><b>Hashtags:</b> #reelideas #contentcreator #socialmedia</p>
-    `;
+        <p><b>Scene 3:</b> Give a quick example or advice.</p>
 
-    // showing output on screen
-    document.getElementById("output").innerHTML = result;
+        <p><b>Caption:</b> ${idea} - Try this today!</p>
+
+        <p><b>Hashtags:</b> #reelideas #contentcreator #socialmedia</p>
+        `;
+
+        // showing output on screen
+         document.getElementById("output").innerHTML = result;
+    }, 1500);
 
 });
