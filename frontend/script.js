@@ -1,41 +1,52 @@
-// when generate button is clicked
-document.getElementById("generate").addEventListener("click", function(){
+// function runs when user clicks generate button
+function generateScript(){
 
-    // getting user idea
-    let idea = document.getElementById("idea").value;
+    let topic = document.getElementById("topic").value;
+    let platform = document.getElementById("platform").value;
+    let tone = document.getElementById("tone").value;
+    let duration = document.getElementById("duration").value;
+    let persona = document.getElementById("persona").value;
 
-    // if user does not enter idea
-    if(idea === ""){
-        alert("Please enter your reel idea first");
+    if(topic === ""){
+        alert("Please enter a topic first");
         return;
     }
 
-    
-    // show loading text
-    document.getElementById("output").innerHTML = "Generating reel plan...";
+    document.getElementById("output").innerHTML = "Generating script...";
 
-    // small delay to simulate processing
-    setTimeout(function(){
+    fetch("http://127.0.0.1:8000/generate-reel", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            topic: topic,
+            platform: platform,
+            tone: tone,
+            duration: parseInt(duration),
+            persona: persona
+        })
+    })
+    .then(response => response.json())
+    .then(data => {
 
-        // simple sample output
         let result = `
-        <h3>Reel Plan</h3>
+        <h3>Hook</h3>
+        <p>${data.hook}</p>
 
-        <p><b>Hook:</b> Start the reel with a question to grab attention.</p>
+        <h3>Body</h3>
+        <p>${data.body}</p>
 
-        <p><b>Scene 1:</b> Introduce the topic briefly.</p>
-
-        <p><b>Scene 2:</b> Explain the main idea or tip.</p>
-
-        <p><b>Scene 3:</b> Give a quick example or advice.</p>
-
-        <p><b>Caption:</b> ${idea} - Try this today!</p>
-
-        <p><b>Hashtags:</b> #reelideas #contentcreator #socialmedia</p>
+        <h3>Call To Action</h3>
+        <p>${data.cta}</p>
         `;
 
-        // showing output on screen
-         document.getElementById("output").innerHTML = result;
-    }, 1500);
+        document.getElementById("output").innerHTML = result;
 
-});
+    })
+    .catch(error => {
+        document.getElementById("output").innerHTML = "Error generating script.";
+        console.log(error);
+    });
+
+}

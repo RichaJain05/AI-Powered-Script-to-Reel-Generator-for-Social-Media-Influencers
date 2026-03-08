@@ -1,14 +1,25 @@
 from fastapi.responses import RedirectResponse
 from fastapi import FastAPI
 from pydantic import BaseModel
+from fastapi.middleware.cors import CORSMiddleware
 import json
 from datetime import datetime
 
 app = FastAPI()
 
+# ENABLE CORS (IMPORTANT)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # allow all frontend origins
+    allow_credentials=True,
+    allow_methods=["*"],   # allow GET, POST, OPTIONS
+    allow_headers=["*"],
+)
+
 @app.get("/")
 def redirect_to_docs():
     return RedirectResponse(url="/docs")
+
 
 # take input from user
 class ReelRequest(BaseModel):
@@ -18,8 +29,10 @@ class ReelRequest(BaseModel):
     duration: int
     persona: str
 
+
 @app.post("/generate-reel")
 def generate_reel(data: ReelRequest):
+
     hook = "What if I told you " + data.topic + " could change everything?"
 
     body = (
@@ -42,6 +55,7 @@ def generate_reel(data: ReelRequest):
         "explanation": explanation
     }
 
+    # save history
     with open("history.json", "a") as file:
         json.dump(
             {
