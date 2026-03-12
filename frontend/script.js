@@ -1,4 +1,3 @@
-// function runs when user clicks generate button
 function generateScript(){
 
     let topic = document.getElementById("topic").value;
@@ -7,13 +6,11 @@ function generateScript(){
     let duration = document.getElementById("duration").value;
     let persona = document.getElementById("persona").value;
 
-    // check if topic is empty
     if(topic === ""){
         alert("Please enter a topic first");
         return;
     }
 
-    // show loading message
     document.getElementById("output").innerHTML = "<p>Generating script...</p>";
 
     fetch("http://127.0.0.1:8000/generate-reel", {
@@ -35,20 +32,20 @@ function generateScript(){
     .then(data => {
 
         let result = `
-        <h2>Generated Reel Script</h2>
+        <h2> Reel Script</h2>
 
         <div>
-            <h3>Hook</h3>
+            <h3> Hook</h3>
             <p>${data.hook}</p>
         </div>
 
         <div>
-            <h3>Body</h3>
+            <h3> Body</h3>
             <p>${data.body}</p>
         </div>
 
         <div>
-            <h3>Call To Action</h3>
+            <h3> Call To Action</h3>
             <p>${data.cta}</p>
         </div>
         `;
@@ -58,7 +55,8 @@ function generateScript(){
     })
 
     .catch(error => {
-        document.getElementById("output").innerHTML = "<p style='color:red;'>Error generating script.</p>";
+        document.getElementById("output").innerHTML =
+        "<p style='color:red;'>Error generating script.</p>";
         console.error(error);
     });
 

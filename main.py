@@ -6,24 +6,26 @@ import json
 from datetime import datetime
 import os
 
+from hook_engine import generate_hook   # NEW IMPORT
+
 app = FastAPI(title="AI Script to Reel Generator")
 
-# ENABLE CORS
+# enable CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # allow all frontend origins
+    allow_origins=["*"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
 
-# Redirect root to docs
+# redirect root
 @app.get("/")
 def redirect_to_docs():
     return RedirectResponse(url="/docs")
 
 
-# Request Model
+# request model
 class ReelRequest(BaseModel):
     topic: str
     platform: str
@@ -32,35 +34,28 @@ class ReelRequest(BaseModel):
     persona: str
 
 
-# Generate Script
+# generate reel
 @app.post("/generate-reel")
 def generate_reel(data: ReelRequest):
 
-    # Hook
-    hook = f"What if I told you {data.topic} could change everything?"
+    # generate hook using hook engine
+    hook = generate_hook(data.topic)
 
-    # Body
     body = (
         f"As a {data.persona}, I will explain {data.topic} "
         f"in a {data.tone.lower()} way for {data.platform}. "
         f"This reel will be around {data.duration} seconds."
     )
 
-    # Call to action
-    cta = "Follow for more AI-powered content ideas!"
-
-    explanation = {
-        "message": "Script generated based on user input"
-    }
+    cta = "Follow for more content ideas!"
 
     result = {
         "hook": hook,
         "body": body,
-        "cta": cta,
-        "explanation": explanation
+        "cta": cta
     }
 
-    # Save history
+    # save history
     history_entry = {
         "time": str(datetime.now()),
         "input": data.dict(),

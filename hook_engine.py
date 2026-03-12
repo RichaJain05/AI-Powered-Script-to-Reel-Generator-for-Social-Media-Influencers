@@ -1,15 +1,13 @@
 import random
 
+# different hook styles
+hooks = [
+    "What if I told you {topic} could change everything?",
+    "Nobody talks about this but {topic} is a game changer.",
+    "Stop scrolling! Here's something about {topic}.",
+    "Most people ignore this about {topic}.",
+    "This one trick about {topic} will surprise you."
+]
+
 def generate_hook(topic):
-
-    hooks = [
-        f"Stop scrolling! Here's something interesting about {topic}.",
-        f"Did you know this about {topic}?",
-        f"Most people don't know this about {topic}.",
-        f"Let me quickly explain {topic}.",
-        f"This might change how you think about {topic}."
-    ]
-
-    hook = random.choice(hooks)
-
-    return hook
+    return random.choice(hooks).format(topic=topic)
