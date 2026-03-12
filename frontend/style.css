@@ -1,28 +1,52 @@
-/* simple styling for the page */
+/* page styling */
 body{
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #f4f6f8;
     text-align: center;
     margin: 0;
-    padding: 20px;
+    padding: 30px;
 }
 
 /* heading style */
 h1{
     color: #333;
+    margin-bottom: 20px;
+}
+
+/* form container */
+.container{
+    background: white;
+    width: 60%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
 }
 
 /* textarea where user writes idea */
 textarea{
-    width: 60%;
+    width: 90%;
     padding: 10px;
-    border-radius: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    resize: none;
 }
 
 /* dropdown styling */
 select{
-    padding: 6px;
-    margin: 5px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* input fields if used */
+input{
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
 
 /* button style */
@@ -31,22 +55,37 @@ button{
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 5px;
+    border-radius: 6px;
     cursor: pointer;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 /* button hover effect */
 button:hover{
     background-color: #45a049;
+    transform: scale(1.03);
 }
 
 /* output box */
 #output{
-    margin-top: 20px;
-    padding: 15px;
+    margin-top: 25px;
+    padding: 20px;
     background-color: white;
     width: 60%;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 5px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+    text-align: left;
+}
+
+/* output headings */
+#output h3{
+    color: #2c3e50;
+}
+
+/* output text */
+#output p{
+    line-height: 1.5;
 }

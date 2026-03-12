@@ -7,12 +7,14 @@ function generateScript(){
     let duration = document.getElementById("duration").value;
     let persona = document.getElementById("persona").value;
 
+    // check if topic is empty
     if(topic === ""){
         alert("Please enter a topic first");
         return;
     }
 
-    document.getElementById("output").innerHTML = "Generating script...";
+    // show loading message
+    document.getElementById("output").innerHTML = "<p>Generating script...</p>";
 
     fetch("http://127.0.0.1:8000/generate-reel", {
         method: "POST",
@@ -27,26 +29,37 @@ function generateScript(){
             persona: persona
         })
     })
+
     .then(response => response.json())
+
     .then(data => {
 
         let result = `
-        <h3>Hook</h3>
-        <p>${data.hook}</p>
+        <h2>Generated Reel Script</h2>
 
-        <h3>Body</h3>
-        <p>${data.body}</p>
+        <div>
+            <h3>Hook</h3>
+            <p>${data.hook}</p>
+        </div>
 
-        <h3>Call To Action</h3>
-        <p>${data.cta}</p>
+        <div>
+            <h3>Body</h3>
+            <p>${data.body}</p>
+        </div>
+
+        <div>
+            <h3>Call To Action</h3>
+            <p>${data.cta}</p>
+        </div>
         `;
 
         document.getElementById("output").innerHTML = result;
 
     })
+
     .catch(error => {
-        document.getElementById("output").innerHTML = "Error generating script.";
-        console.log(error);
+        document.getElementById("output").innerHTML = "<p style='color:red;'>Error generating script.</p>";
+        console.error(error);
     });
 
 }
