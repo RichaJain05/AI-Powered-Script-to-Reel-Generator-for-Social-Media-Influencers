@@ -52,7 +52,11 @@ def generate_reel(data: ReelRequest):
     result = {
         "hook": hook,
         "body": body,
-        "cta": cta
+        "cta": cta,
+        "platform": data.platform,
+        "tone": data.tone,
+        "duration": data.duration,
+        "persona": data.persona
     }
 
     # save history

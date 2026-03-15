@@ -32,22 +32,31 @@ function generateScript(){
     .then(data => {
 
         let result = `
-        <h2> Reel Script</h2>
+        <h2>Reel Script</h2>
 
-        <div>
-            <h3> Hook</h3>
+        <div class="script-box">
+            <h3>Hook</h3>
             <p>${data.hook}</p>
         </div>
 
-        <div>
-            <h3> Body</h3>
+        <div class="script-box">
+            <h3>Body</h3>
             <p>${data.body}</p>
         </div>
 
-        <div>
-            <h3> Call To Action</h3>
+        <div class="script-box">
+            <h3>Call To Action</h3>
             <p>${data.cta}</p>
         </div>
+
+        <hr>
+
+        <h3>Reel Details</h3>
+
+        <p><b>Platform:</b> ${data.platform}</p>
+        <p><b>Tone:</b> ${data.tone}</p>
+        <p><b>Duration:</b> ${data.duration} seconds</p>
+        <p><b>Creator Persona:</b> ${data.persona}</p>
         `;
 
         document.getElementById("output").innerHTML = result;
@@ -55,8 +64,10 @@ function generateScript(){
     })
 
     .catch(error => {
+
         document.getElementById("output").innerHTML =
         "<p style='color:red;'>Error generating script.</p>";
+
         console.error(error);
     });
 
