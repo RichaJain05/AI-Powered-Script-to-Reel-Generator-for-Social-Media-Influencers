@@ -13,6 +13,18 @@ h1{
     margin-bottom: 20px;
 }
 
+/* logout button */
+body > button{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #ff4d4d;
+}
+
+body > button:hover{
+    background: #e63e3e;
+}
+
 /* form container */
 .container{
     background: white;
@@ -41,7 +53,7 @@ select{
     border: 1px solid #ccc;
 }
 
-/* input fields if used */
+/* input fields */
 input{
     padding: 8px;
     margin: 8px;
@@ -112,4 +124,21 @@ button:hover{
     padding:10px;
     background:#eef5ff;
     border-radius:6px;
+}
+
+/* action buttons section */
+#actions{
+    margin-top:15px;
+    text-align:center;
+}
+
+/* links (login/signup) */
+a{
+    text-decoration:none;
+    color:#4CAF50;
+    font-weight:bold;
+}
+
+a:hover{
+    text-decoration:underline;
 }

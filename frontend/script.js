@@ -51,24 +51,47 @@ function generateScript(){
 
         <hr>
 
+        <div class="reel-details">
         <h3>Reel Details</h3>
 
         <p><b>Platform:</b> ${data.platform}</p>
         <p><b>Tone:</b> ${data.tone}</p>
         <p><b>Duration:</b> ${data.duration} seconds</p>
         <p><b>Creator Persona:</b> ${data.persona}</p>
+        </div>
         `;
 
         document.getElementById("output").innerHTML = result;
 
+        /* show action buttons */
+        document.getElementById("actions").style.display = "block";
+
     })
 
     .catch(error => {
-
         document.getElementById("output").innerHTML =
         "<p style='color:red;'>Error generating script.</p>";
-
         console.error(error);
     });
+}
 
+/* copy script function */
+
+function copyScript(){
+    let text = document.getElementById("output").innerText;
+    navigator.clipboard.writeText(text)
+    .then(() => {
+        alert("Script copied successfully!");
+    });
+}
+
+/* download script function */
+
+function downloadScript(){
+    let text = document.getElementById("output").innerText;
+    let blob = new Blob([text], { type: "text/plain" });
+    let link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "reel_script.txt";
+    link.click();
 }

@@ -10,13 +10,14 @@
 <h1>AI Script to Reel Generator</h1>
 <p>This tool helps convert a simple idea into a reel script.</p>
 
+<button onclick="logout()">Logout</button>
+
 <div class="container">
 
     <!-- user enters reel topic -->
     <label>Reel Topic</label><br>
     <textarea id="topic" rows="5" placeholder="Enter your reel topic..."></textarea>
-    <br>
-    <br>
+    <br><br>
 
     <!-- platform selection -->
     <label>Platform:</label><br>
@@ -25,8 +26,7 @@
         <option>YouTube Shorts</option>
         <option>TikTok</option>
     </select>
-    <br>
-    <br>
+    <br><br>
 
     <!-- reel tone -->
     <label>Tone:</label><br>
@@ -35,8 +35,7 @@
         <option>Funny</option>
         <option>Motivational</option>
     </select>
-    <br>
-    <br>
+    <br><br>
 
     <!-- reel duration -->
     <label>Duration:</label><br>
@@ -44,14 +43,12 @@
         <option value="30">30 seconds</option>
         <option value="60">60 seconds</option>
     </select>
-    <br>
-    <br>
+    <br><br>
 
     <!-- content persona -->
     <label>Creator Persona:</label><br>
     <input type="text" id="persona" placeholder="Example: Tech Creator">
-    <br>
-    <br>
+    <br><br>
 
     <!-- button to generate script -->
     <button type="button" onclick="generateScript()">Generate Script</button>
@@ -62,10 +59,21 @@
 
 <h2>Generated Reel Script</h2>
 
-<!-- generated content will show here -->
 <div id="output"></div>
 
+<!-- copy + download buttons -->
+<div id="actions" style="margin-top:15px; display:none;">
+    <button onclick="copyScript()">Copy Script</button>
+    <button onclick="downloadScript()">Download Script</button>
+</div>
+
 <script src="script.js"></script>
+
+<script>
+function logout(){
+    window.location.href="login.html";
+}
+</script>
 
 </body>
 </html>
