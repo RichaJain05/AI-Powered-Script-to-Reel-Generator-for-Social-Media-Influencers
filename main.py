@@ -1,83 +1,42 @@
 from fastapi import FastAPI
-from fastapi.responses import RedirectResponse
-from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
-import json
-from datetime import datetime
-import os
 
-from hook_engine import generate_hook   # NEW IMPORT
+from models import ReelRequest
+from hook_engine import generate_hook
+from script_engine import generate_script
+from explainability import explain_script
+from storage import save_result
 
-app = FastAPI(title="AI Script to Reel Generator")
+app = FastAPI()
 
-# enable CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
 
-# redirect root
+# Home route
 @app.get("/")
-def redirect_to_docs():
-    return RedirectResponse(url="/docs")
+def home():
+    return {"message": "AI Reel Script Generator Backend Running"}
 
 
-# request model
-class ReelRequest(BaseModel):
-    topic: str
-    platform: str
-    tone: str
-    duration: int
-    persona: str
-
-
-# generate reel
+# Main API
 @app.post("/generate-reel")
 def generate_reel(data: ReelRequest):
 
-    # generate hook using hook engine
+    # Generate hook
     hook = generate_hook(data.topic)
 
-    body = (
-        f"As a {data.persona}, I will explain {data.topic} "
-        f"in a {data.tone.lower()} way for {data.platform}. "
-        f"This reel will be around {data.duration} seconds."
-    )
+    # Generate script and CTA
+    body, cta = generate_script(data)
 
-    cta = "Follow for more content ideas!"
+    # Generate explanation
+    explanation = explain_script(data)
 
+    # Final result
     result = {
         "hook": hook,
         "body": body,
         "cta": cta,
-        "platform": data.platform,
-        "tone": data.tone,
-        "duration": data.duration,
-        "persona": data.persona
+        "explanation": explanation
     }
 
-    # save history
-    history_entry = {
-        "time": str(datetime.now()),
-        "input": data.dict(),
-        "output": result
-    }
-
-    try:
-        if not os.path.exists("history.json"):
-            with open("history.json", "w") as file:
-                json.dump([], file)
-
-        with open("history.json", "r+") as file:
-            history = json.load(file)
-            history.append(history_entry)
-            file.seek(0)
-            json.dump(history, file, indent=4)
-
-    except Exception as e:
-        print("Error saving history:", e)
+    # Save result
+    save_result(result)
 
     return result
