@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware   # ✅ ADD THIS
 
 from models import ReelRequest
 from hook_engine import generate_hook
@@ -8,6 +9,14 @@ from storage import save_result
 
 app = FastAPI()
 
+# ✅ ENABLE CORS (VERY IMPORTANT)
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],   # allow frontend
+    allow_credentials=True,
+    allow_methods=["*"],   # allow POST, GET, OPTIONS
+    allow_headers=["*"],
+)
 
 # Home route
 @app.get("/")

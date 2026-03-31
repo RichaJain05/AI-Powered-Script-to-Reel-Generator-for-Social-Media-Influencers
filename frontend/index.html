@@ -10,7 +10,7 @@
 <h1>AI Script to Reel Generator</h1>
 <p>This tool helps convert a simple idea into a reel script.</p>
 
-<button onclick="logout()">Logout</button>
+<button type="button" onclick="logout()">Logout</button>
 
 <div class="container">
 
@@ -50,8 +50,8 @@
     <input type="text" id="persona" placeholder="Example: Tech Creator">
     <br><br>
 
-    <!-- button to generate script -->
-    <button type="button" onclick="generateScript()">Generate Script</button>
+    <!-- FIXED BUTTON -->
+    <button type="button" onclick="generateScript(event)">Generate Script</button>
 
 </div>
 
@@ -61,10 +61,10 @@
 
 <div id="output"></div>
 
-<!-- copy + download buttons -->
+<!-- actions -->
 <div id="actions" style="margin-top:15px; display:none;">
-    <button onclick="copyScript()">Copy Script</button>
-    <button onclick="downloadScript()">Download Script</button>
+    <button type="button" onclick="copyScript()">Copy Script</button>
+    <button type="button" onclick="downloadScript()">Download Script</button>
 </div>
 
 <script src="script.js"></script>
