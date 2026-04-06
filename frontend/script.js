@@ -1,4 +1,4 @@
-// Generate Script Function
+// Generate Script Function (ONLY ONE FUNCTION)
 function generateScript(event){
 
     // stop page refresh
@@ -16,7 +16,7 @@ function generateScript(event){
         return;
     }
 
-    // loading message
+    // loading
     document.getElementById("output").innerHTML = "<p>Generating script...</p>";
 
     fetch("http://127.0.0.1:8000/generate-reel", {
@@ -42,11 +42,9 @@ function generateScript(event){
 
     .then(data => {
 
-        console.log("API Response:", data); 
+        console.log("API:", data);
 
         let result = `
-        <h2>Reel Script</h2>
-
         <div class="script-box">
             <h3>Hook</h3>
             <p>${data.hook}</p>
@@ -62,8 +60,6 @@ function generateScript(event){
             <p>${data.cta}</p>
         </div>
 
-        <hr>
-
         <div class="reel-details">
             <h3>Explanation</h3>
             <p><b>Topic:</b> ${data.explanation.topic_used}</p>
@@ -74,34 +70,28 @@ function generateScript(event){
         `;
 
         document.getElementById("output").innerHTML = result;
-
-        // show buttons
         document.getElementById("actions").style.display = "block";
     })
 
     .catch(error => {
-
         console.error("Error:", error);
-
         document.getElementById("output").innerHTML =
-        "<p style='color:red;'>Error generating script. Check backend.</p>";
+        "<p style='color:red;'>Error generating script</p>";
     });
 }
 
 
-// Copy Script
+// Copy
 function copyScript(){
     let text = document.getElementById("output").innerText;
-
     navigator.clipboard.writeText(text)
     .then(() => alert("Copied!"))
     .catch(() => alert("Copy failed"));
 }
 
 
-// Download Script
+// Download
 function downloadScript(){
-
     let text = document.getElementById("output").innerText;
 
     let blob = new Blob([text], { type: "text/plain" });

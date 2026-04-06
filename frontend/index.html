@@ -14,12 +14,10 @@
 
 <div class="container">
 
-    <!-- user enters reel topic -->
     <label>Reel Topic</label><br>
     <textarea id="topic" rows="5" placeholder="Enter your reel topic..."></textarea>
     <br><br>
 
-    <!-- platform selection -->
     <label>Platform:</label><br>
     <select id="platform">
         <option>Instagram</option>
@@ -28,7 +26,6 @@
     </select>
     <br><br>
 
-    <!-- reel tone -->
     <label>Tone:</label><br>
     <select id="tone">
         <option>Informative</option>
@@ -37,7 +34,6 @@
     </select>
     <br><br>
 
-    <!-- reel duration -->
     <label>Duration:</label><br>
     <select id="duration">
         <option value="30">30 seconds</option>
@@ -45,13 +41,14 @@
     </select>
     <br><br>
 
-    <!-- content persona -->
     <label>Creator Persona:</label><br>
     <input type="text" id="persona" placeholder="Example: Tech Creator">
     <br><br>
 
-    <!-- FIXED BUTTON -->
-    <button type="button" onclick="generateScript(event)">Generate Script</button>
+    <!-- ✅ ONLY THIS -->
+    <button type="button" onclick="generateScript(event)">
+        Generate Script
+    </button>
 
 </div>
 
@@ -61,7 +58,6 @@
 
 <div id="output"></div>
 
-<!-- actions -->
 <div id="actions" style="margin-top:15px; display:none;">
     <button type="button" onclick="copyScript()">Copy Script</button>
     <button type="button" onclick="downloadScript()">Download Script</button>
@@ -71,7 +67,7 @@
 
 <script>
 function logout(){
-    window.location.href="login.html";
+    window.location.href = "login.html";
 }
 </script>
 
