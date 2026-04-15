@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Script to Reel Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>AI Script to Reel Generator</h1>
+<p>This tool helps to convert simple idea into reel plan.</p>
+
+<!-- user enters reel topic -->
+<textarea id="topic" rows="5" cols="50"
+placeholder="Enter your reel topic..."></textarea>
+<br>
+<br>
+
+<!-- platform selection -->
+<label>Platform:</label>
+<select id="platform">
+<option>Instagram</option>
+<option>YouTube Shorts</option>
+<option>TikTok</option>
+</select>
+<br>
+<br>
+
+<!-- reel tone -->
+<label>Tone:</label>
+<select id="tone">
+<option>Informative</option>
+<option>Funny</option>
+<option>Motivational</option>
+</select>
+<br>
+<br>
+
+<!-- reel duration -->
+<label>Duration:</label>
+<select id="duration">
+<option value="30">30 seconds</option>
+<option value="60">60 seconds</option>
+</select>
+<br>
+<br>
+
+<!-- content persona -->
+<label>Creator Persona:</label>
+<input type="text" id="persona" placeholder="Example: Tech Creator">
+<br>
+<br>
+
+<!-- button to generate script -->
+<button onclick="generateScript()">Generate</button>
+<hr>
+<h2>Generated Reel Script</h2>
+
+<!-- generated content will show here -->
+<div id="output"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
