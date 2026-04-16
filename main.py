@@ -1,52 +1,38 @@
-from fastapi.responses import RedirectResponse
 from fastapi import FastAPI
-from pydantic import BaseModel
+
+from models import ReelRequest
+from hook_engine import generate_hook
+from script_engine import generate_script
+from explainability import explain_script
+from storage import save_result
+
+app = FastAPI()
 from fastapi.middleware.cors import CORSMiddleware
-import json
-from datetime import datetime
 
 app = FastAPI()
 
-# ENABLE CORS (IMPORTANT)
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],   # allow all frontend origins
+    allow_origins=["*"],
     allow_credentials=True,
-    allow_methods=["*"],   # allow GET, POST, OPTIONS
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
+
 @app.get("/")
-def redirect_to_docs():
-    return RedirectResponse(url="/docs")
-
-
-# take input from user
-class ReelRequest(BaseModel):
-    topic: str
-    platform: str
-    tone: str
-    duration: int
-    persona: str
+def home():
+    return {"message": "Backend is running successfully"}
 
 
 @app.post("/generate-reel")
 def generate_reel(data: ReelRequest):
 
-    hook = "What if I told you " + data.topic + " could change everything?"
+    hook = generate_hook(data.topic)
 
-    body = (
-        "As a " + data.persona +
-        ", I will explain " + data.topic +
-        " in a " + data.tone.lower() +
-        " way for " + data.platform + "."
-    )
+    body, cta = generate_script(data)
 
-    cta = "Follow for more such content"
-
-    explanation = {
-        "message": "Script generated based on user input details"
-    }
+    explanation = explain_script(data)
 
     result = {
         "hook": hook,
@@ -55,15 +41,6 @@ def generate_reel(data: ReelRequest):
         "explanation": explanation
     }
 
-    # save history
-    with open("history.json", "a") as file:
-        json.dump(
-            {
-                "time": str(datetime.now()),
-                "result": result
-            },
-            file
-        )
-        file.write("\n")
+    save_result(result)
 
     return result

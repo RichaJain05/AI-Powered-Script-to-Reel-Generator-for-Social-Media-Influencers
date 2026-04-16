@@ -4,5 +4,5 @@ class ReelRequest(BaseModel):
     topic: str
     platform: str
     tone: str
-    duration: int = 30
+    duration: int
     persona: str
