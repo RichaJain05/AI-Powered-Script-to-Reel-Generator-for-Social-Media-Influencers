@@ -6,3 +6,4 @@ class ReelRequest(BaseModel):
     tone: str
     duration: int
     persona: str
+    

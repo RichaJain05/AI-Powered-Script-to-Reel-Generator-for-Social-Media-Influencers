@@ -1,10 +1,10 @@
 from fastapi import FastAPI
 
-from models import ReelRequest
-from hook_engine import generate_hook
-from script_engine import generate_script
-from explainability import explain_script
-from storage import save_result
+from backend.models import ReelRequest
+from backend.hook_engine import generate_hook
+from backend.script_engine import generate_script
+from backend.explainability import explain_script
+from backend.storage import save_result
 
 app = FastAPI()
 from fastapi.middleware.cors import CORSMiddleware
@@ -18,6 +18,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 
 
 @app.get("/")
