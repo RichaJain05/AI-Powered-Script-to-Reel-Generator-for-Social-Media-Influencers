@@ -649,6 +649,31 @@
             "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
             "message": "Script generated successfully based on your specific inputs."
         }
+    },
+    {
+        "hook": "This can change your thinking about diy.",
+        "body": "\"Hey guys, welcome back to my channel. Aaj main aapko dikhaunga ek cool DIY idea. Agar aapke ghar me purane CDs hain, toh unhein fekne ki zarurat nahi hai. Aap unse ek beautiful wind chime bana sakte hain. \n\nSabse pehle, aapko CDs ko cut karke chhote-chhote tukdon me karna hoga. Phir aapko ek metal ring ki zarurat hogi, jise aap CDs ke tukdon ko latka sakte hain. \n\nIske baad, aapko sirf CDs ke tukdon ko metal ring me latka dena hai, aur aapka wind chime ready hai. \n\nYe idea na sirf creative hai, balki ye environment friendly bhi hai. Toh, agle baar aapko CDs fekne ki zarurat nahi hogi, balki aap unse kuchh beautiful bana sakte hain.\"",
+        "cta": "\"Try karo ye DIY idea, aur mujhe comment me batao ki aapko ye idea kaisa laga. Agar aapko aur DIY ideas chahiye, toh mujhe follow karo, aur bell icon ko press karo taaki aapko mere sabhi reels ki notification mil sake.\" #DIY #StudentLife #Sustainability",
+        "explanation": {
+            "topic_used": "diy",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Let me explain diy hacks quickly.",
+        "body": "\"Hey guys, welcome back to my channel. Aaj main aapko kuch cool DIY hacks bataunga jo aapke daily life ko bahut easy bana denge. Pehla hack hai, agar aapke shoes ke lace khul jaate hain toh aap unhein ek chhoti si clip se secure kar sakte hain. Doosra hack hai, aap apne phone ko ek cardboard box mein rakhte hain toh usse aapka phone stand ban jaata hai. Aur teesra hack hai, aap apne cables ko manage karne ke liye ek chhoti si box ka use kar sakte hain.",
+        "cta": "\"Toh doston, agar aapko ye DIY hacks pasand aaye toh please like, comment, aur share karna mat bhoolna. Aur agar aapke paas bhi koi aisa hack hai toh mujhe bataiye, main usse apne agle reel mein share karunga. Thanks for watching, aur milte hain next reel mein #DIYHacks #StudentLife #ProductivityHacks\"",
+        "explanation": {
+            "topic_used": "diy hacks",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
     }
 ]
-
