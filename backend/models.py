@@ -5,4 +5,5 @@ class ReelRequest(BaseModel):
     persona: str
     tone: str
     platform: str 
+
     

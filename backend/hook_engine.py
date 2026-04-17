@@ -26,3 +26,4 @@ def generate_hook(topic):
     """
 
     return call_llm(prompt)
+

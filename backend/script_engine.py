@@ -36,3 +36,4 @@ def generate_script(data):
         cta = "Follow for more such content."
 
     return body, cta
+

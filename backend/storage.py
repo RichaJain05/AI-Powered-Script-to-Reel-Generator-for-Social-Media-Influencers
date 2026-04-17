@@ -25,4 +25,5 @@ def save_result(result):
 
     with open(HISTORY_FILE, "w") as file:
         json.dump(data, file, indent=4)
+
         
