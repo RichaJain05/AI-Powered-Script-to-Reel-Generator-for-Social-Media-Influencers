@@ -8,8 +8,10 @@ from storage import save_result
 from video_engine import generate_ai_video
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
+import google.generativeai as genai
 import os
-api_key = os.getenv("GOOGLE_API_KEY")
+
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 app = FastAPI()
 
 # 1. UPDATED ORIGINS
