@@ -1,0 +1,151 @@
+let currentScriptText = "";
+
+// wait until page loads
+document.addEventListener("DOMContentLoaded", function(){
+
+    const btn = document.getElementById("generateBtn");
+
+    btn.addEventListener("click", function(e){
+
+        e.preventDefault();
+
+        let topic = document.getElementById("topic").value;
+        let platform = document.getElementById("platform").value;
+        let tone = document.getElementById("tone").value;
+        let duration = document.getElementById("duration").value;
+        let persona = document.getElementById("persona").value;
+
+        if(topic.trim() === ""){
+            alert("Please enter a topic first");
+            return;
+        }
+
+        document.getElementById("output").innerHTML = "<p>Generating script...</p>";
+
+        fetch("/generate-reel", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                topic: topic,
+                platform: platform,
+                tone: tone,
+                duration: parseInt(duration),
+                persona: persona
+            })
+        })
+
+        .then(res => res.json())
+
+        .then(data => {
+
+            console.log(data); 
+            currentScriptText = `${data.hook}\n\n${data.body}\n\n${data.cta}`;
+
+            let html = `
+            <div class="script-box">
+                <h3>Hook</h3>
+                <p>${data.hook}</p>
+            </div>
+
+            <div class="script-box">
+                <h3>Body</h3>
+                <p>${data.body}</p>
+            </div>
+
+            <div class="script-box">
+                <h3>CTA</h3>
+                <p>${data.cta}</p>
+            </div>
+
+            <div class="reel-details">
+                <h3>Explanation</h3>
+                <p>${data.explanation.message}</p>
+            </div>
+            `;
+
+            document.getElementById("output").innerHTML = html;
+
+            document.getElementById("actions").style.display = "block";
+        })
+
+        .catch(err => {
+            console.error(err);
+            document.getElementById("output").innerHTML =
+            "<p style='color:red;'>Error generating script</p>";
+        });
+
+    });
+
+});
+
+
+// copy
+function copyScript(){
+    let text = document.getElementById("output").innerText;
+    navigator.clipboard.writeText(text);
+    alert("Copied!");
+}
+
+// download
+function downloadScript(){
+    let text = document.getElementById("output").innerText;
+
+    let blob = new Blob([text], { type: "text/plain" });
+    let link = document.createElement("a");
+
+    link.href = URL.createObjectURL(blob);
+    link.download = "script.txt";
+
+    link.click();
+}
+
+// generate video
+function generateVideo() {
+    if (!currentScriptText) {
+        alert("Please generate a script first!");
+        return;
+    }
+
+    const btn = document.getElementById("generateVideoBtn");
+    const originalText = btn.innerText;
+    btn.innerText = "Generating Video (This takes a moment)...";
+    btn.disabled = true;
+
+    fetch("/generate-video", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            script_text: currentScriptText
+        })
+    })
+    .then(res => {
+        if (!res.ok) {
+            throw new Error("Failed to generate video");
+        }
+        return res.blob();
+    })
+    .then(blob => {
+        // Create a download link for the video
+        let url = window.URL.createObjectURL(blob);
+        let a = document.createElement("a");
+        a.href = url;
+        a.download = "ai_reel.mp4";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+        alert("Video generated and downloaded!");
+    })
+    .catch(err => {
+        console.error(err);
+        alert("Error generating video");
+    })
+    .finally(() => {
+        btn.innerText = originalText;
+        btn.disabled = false;
+    });
+}

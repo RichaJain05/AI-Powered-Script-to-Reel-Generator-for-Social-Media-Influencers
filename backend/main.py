@@ -21,6 +21,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Serve static files from frontend
+app.mount("/", StaticFiles(directory="static", html=True), name="frontend")
+
 @app.post("/generate-reel")
 def generate_reel(data: ReelRequest):
 
