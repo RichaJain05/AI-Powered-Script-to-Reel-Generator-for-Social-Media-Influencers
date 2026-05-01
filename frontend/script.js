@@ -1,12 +1,12 @@
+// 1. UPDATE THIS URL with your actual Render Backend URL
+const API_BASE_URL = "https://your-backend-name.onrender.com"; 
+
 let currentScriptText = "";
 
-// wait until page loads
 document.addEventListener("DOMContentLoaded", function(){
-
     const btn = document.getElementById("generateBtn");
 
     btn.addEventListener("click", function(e){
-
         e.preventDefault();
 
         let topic = document.getElementById("topic").value;
@@ -22,7 +22,8 @@ document.addEventListener("DOMContentLoaded", function(){
 
         document.getElementById("output").innerHTML = "<p>Generating script...</p>";
 
-        fetch("https://reel-generator-backend.onrender.com/generate-reel", {
+        // 2. Updated to use API_BASE_URL
+        fetch(`${API_BASE_URL}/generate-reel`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -35,11 +36,8 @@ document.addEventListener("DOMContentLoaded", function(){
                 persona: persona
             })
         })
-
         .then(res => res.json())
-
         .then(data => {
-
             console.log(data); 
             currentScriptText = `${data.hook}\n\n${data.body}\n\n${data.cta}`;
 
@@ -48,17 +46,14 @@ document.addEventListener("DOMContentLoaded", function(){
                 <h3>Hook</h3>
                 <p>${data.hook}</p>
             </div>
-
             <div class="script-box">
                 <h3>Body</h3>
                 <p>${data.body}</p>
             </div>
-
             <div class="script-box">
                 <h3>CTA</h3>
                 <p>${data.cta}</p>
             </div>
-
             <div class="reel-details">
                 <h3>Explanation</h3>
                 <p>${data.explanation.message}</p>
@@ -66,42 +61,17 @@ document.addEventListener("DOMContentLoaded", function(){
             `;
 
             document.getElementById("output").innerHTML = html;
-
             document.getElementById("actions").style.display = "block";
         })
-
         .catch(err => {
             console.error(err);
             document.getElementById("output").innerHTML =
-            "<p style='color:red;'>Error generating script</p>";
+            "<p style='color:red;'>Error generating script. Check if backend is awake.</p>";
         });
-
     });
-
 });
 
-
-// copy
-function copyScript(){
-    let text = document.getElementById("output").innerText;
-    navigator.clipboard.writeText(text);
-    alert("Copied!");
-}
-
-// download
-function downloadScript(){
-    let text = document.getElementById("output").innerText;
-
-    let blob = new Blob([text], { type: "text/plain" });
-    let link = document.createElement("a");
-
-    link.href = URL.createObjectURL(blob);
-    link.download = "script.txt";
-
-    link.click();
-}
-
-// generate video
+// Generate video function
 function generateVideo() {
     if (!currentScriptText) {
         alert("Please generate a script first!");
@@ -110,26 +80,24 @@ function generateVideo() {
 
     const btn = document.getElementById("generateVideoBtn");
     const originalText = btn.innerText;
-    btn.innerText = "Generating Video (This takes a moment)...";
+    btn.innerText = "Generating Video (Processing on Cloud)...";
     btn.disabled = true;
 
-    fetch("/generate-video", {
+    // 3. Updated to use API_BASE_URL and corrected 'script_content' field
+    fetch(`${API_BASE_URL}/generate-video`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            script_text: currentScriptText
+            script_content: currentScriptText // Changed from script_text to match backend
         })
     })
     .then(res => {
-        if (!res.ok) {
-            throw new Error("Failed to generate video");
-        }
+        if (!res.ok) throw new Error("Failed to generate video");
         return res.blob();
     })
     .then(blob => {
-        // Create a download link for the video
         let url = window.URL.createObjectURL(blob);
         let a = document.createElement("a");
         a.href = url;
@@ -142,10 +110,26 @@ function generateVideo() {
     })
     .catch(err => {
         console.error(err);
-        alert("Error generating video");
+        alert("Error generating video. Make sure your Google API Key is set on Render.");
     })
     .finally(() => {
         btn.innerText = originalText;
         btn.disabled = false;
     });
+}
+
+// Utility functions
+function copyScript(){
+    let text = document.getElementById("output").innerText;
+    navigator.clipboard.writeText(text);
+    alert("Copied to clipboard!");
+}
+
+function downloadScript(){
+    let text = document.getElementById("output").innerText;
+    let blob = new Blob([text], { type: "text/plain" });
+    let link = document.createElement("a");
+    link.href = URL.createObjectURL(blob);
+    link.download = "script.txt";
+    link.click();
 }
