@@ -1,5 +1,5 @@
-// 1. UPDATE THIS URL with your actual Render Backend URL
-const API_BASE_URL = "https://your-backend-name.onrender.com"; 
+// 1. UPDATE THIS URL with your actual Render Backend URL (Web Service URL)
+const API_BASE_URL = "https://ai-powered-script-to-reel-generator-backend.onrender.com"; 
 
 let currentScriptText = "";
 
@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         document.getElementById("output").innerHTML = "<p>Generating script...</p>";
 
-        // 2. Updated to use API_BASE_URL
+        // Fetch call to the FastAPI backend
         fetch(`${API_BASE_URL}/generate-reel`, {
             method: "POST",
             headers: {
@@ -83,14 +83,14 @@ function generateVideo() {
     btn.innerText = "Generating Video (Processing on Cloud)...";
     btn.disabled = true;
 
-    // 3. Updated to use API_BASE_URL and corrected 'script_content' field
+    // Corrected 'script_content' field to match your Flask/FastAPI backend logic
     fetch(`${API_BASE_URL}/generate-video`, {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
         },
         body: JSON.stringify({
-            script_content: currentScriptText // Changed from script_text to match backend
+            script_content: currentScriptText 
         })
     })
     .then(res => {
@@ -132,8 +132,4 @@ function downloadScript(){
     link.href = URL.createObjectURL(blob);
     link.download = "script.txt";
     link.click();
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 90f32b8 (Deployment Fix: Updated URLs and CORS settings)
