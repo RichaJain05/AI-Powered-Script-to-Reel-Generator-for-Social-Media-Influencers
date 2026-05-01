@@ -51,11 +51,12 @@ def generate_reel(data: ReelRequest):
 
 @app.post("/generate-video")
 def generate_video(data: VideoRequest):
-    # 2. MATCHING THE FRONTEND FIELD
-    # Your frontend sends 'script_content', but your model might expect 'script_text'
-    # Ensure your VideoRequest model or this line uses the correct attribute
-    script_to_use = getattr(data, 'script_content', getattr(data, 'script_text', ""))
+    # Now that the model matches the frontend, you can use data.script_content directly
+    script_to_use = data.script_content
     
+    if not script_to_use:
+        return {"error": "Script content is empty"}
+        
     output_file = generate_ai_video(script_to_use)
     
     if output_file and os.path.exists(output_file):
@@ -70,3 +71,5 @@ def generate_video(data: VideoRequest):
 frontend_path = os.path.join(os.getcwd(), "frontend")
 if os.path.exists(frontend_path):
     app.mount("/", StaticFiles(directory=frontend_path, html=True), name="frontend")
+
+   

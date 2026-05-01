@@ -6,5 +6,8 @@ class ReelRequest(BaseModel):
     tone: str
     platform: str 
 
+
+
 class VideoRequest(BaseModel):
-    script_text: str
+    
+    script_content: str
