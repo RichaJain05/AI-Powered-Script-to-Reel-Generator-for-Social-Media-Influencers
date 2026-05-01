@@ -132,4 +132,8 @@ function downloadScript(){
     link.href = URL.createObjectURL(blob);
     link.download = "script.txt";
     link.click();
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 90f32b8 (Deployment Fix: Updated URLs and CORS settings)
