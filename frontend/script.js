@@ -1,3 +1,5 @@
+let currentScriptText = "";
+
 // wait until page loads
 document.addEventListener("DOMContentLoaded", function(){
 
@@ -20,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         document.getElementById("output").innerHTML = "<p>Generating script...</p>";
 
-        fetch("http://127.0.0.1:8000/generate-reel", {
+        fetch("/generate-reel", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
@@ -39,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function(){
         .then(data => {
 
             console.log(data); 
+            currentScriptText = `${data.hook}\n\n${data.body}\n\n${data.cta}`;
 
             let html = `
             <div class="script-box">
@@ -96,4 +99,53 @@ function downloadScript(){
     link.download = "script.txt";
 
     link.click();
+}
+
+// generate video
+function generateVideo() {
+    if (!currentScriptText) {
+        alert("Please generate a script first!");
+        return;
+    }
+
+    const btn = document.getElementById("generateVideoBtn");
+    const originalText = btn.innerText;
+    btn.innerText = "Generating Video (This takes a moment)...";
+    btn.disabled = true;
+
+    fetch("/generate-video", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            script_text: currentScriptText
+        })
+    })
+    .then(res => {
+        if (!res.ok) {
+            throw new Error("Failed to generate video");
+        }
+        return res.blob();
+    })
+    .then(blob => {
+        // Create a download link for the video
+        let url = window.URL.createObjectURL(blob);
+        let a = document.createElement("a");
+        a.href = url;
+        a.download = "ai_reel.mp4";
+        document.body.appendChild(a);
+        a.click();
+        a.remove();
+        window.URL.revokeObjectURL(url);
+        alert("Video generated and downloaded!");
+    })
+    .catch(err => {
+        console.error(err);
+        alert("Error generating video");
+    })
+    .finally(() => {
+        btn.innerText = originalText;
+        btn.disabled = false;
+    });
 }
