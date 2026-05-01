@@ -1,5 +1,5 @@
 // 1. UPDATE THIS URL with your actual Render Backend URL (Web Service URL)
-const API_BASE_URL = "https://ai-powered-script-to-reel-generator-backend.onrender.com"; 
+const API_BASE_URL = "https://ai-powered-script-to-reel-generator-for.onrender.com"; 
 
 let currentScriptText = "";
 
