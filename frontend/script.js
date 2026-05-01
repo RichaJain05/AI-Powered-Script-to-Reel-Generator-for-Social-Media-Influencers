@@ -89,9 +89,9 @@ function generateVideo() {
         headers: {
             "Content-Type": "application/json"
         },
-        body: JSON.stringify({
-            script_content: currentScriptText 
-        })
+       body: JSON.stringify({
+        script_content: currentScriptText 
+     })
     })
     .then(res => {
         if (!res.ok) throw new Error("Failed to generate video");
