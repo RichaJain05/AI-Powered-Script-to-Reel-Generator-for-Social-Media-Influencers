@@ -1,6 +1,8 @@
 fastapi
 uvicorn
 pydantic
-python-dotenv
+gTTS
+moviepy
+Pillow
 groq
-requests
+python-dotenv

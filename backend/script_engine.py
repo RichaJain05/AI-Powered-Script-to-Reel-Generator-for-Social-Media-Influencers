@@ -1,4 +1,5 @@
 from llm_service import call_llm
+import re
 
 
 def generate_script(data):
@@ -18,6 +19,8 @@ def generate_script(data):
     - Easy to understand
     - conversational (Hinglish allowed)
 
+    Output in plain text, no markdown formatting.
+
     Format:
     Body:
     CTA:
@@ -25,13 +28,20 @@ def generate_script(data):
 
     result = call_llm(prompt)
 
-   
-    parts = result.split("CTA:")
+    # Clean the result by removing markdown bold
+    result = re.sub(r'\*\*', '', result)
 
-    body = parts[0].replace("Body:", "").strip()
+    # Use regex to extract Body and CTA
+    body_match = re.search(r'Body:\s*(.*?)\s*CTA:', result, re.DOTALL | re.IGNORECASE)
+    cta_match = re.search(r'CTA:\s*(.*)', result, re.DOTALL | re.IGNORECASE)
 
-    if len(parts) > 1:
-        cta = parts[1].strip()
+    if body_match:
+        body = body_match.group(1).strip()
+    else:
+        body = "Error: Could not parse body from response."
+
+    if cta_match:
+        cta = cta_match.group(1).strip()
     else:
         cta = "Follow for more such content."
 

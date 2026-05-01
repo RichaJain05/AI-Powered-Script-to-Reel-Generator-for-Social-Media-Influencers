@@ -675,5 +675,611 @@
             "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
             "message": "Script generated successfully based on your specific inputs."
         }
+    },
+    {
+        "hook": "\"Level up your student life with these 5-minute DIY hacks that will save you time, money, and stress \"",
+        "body": "****\nHey guys, welcome back to my Instagram. As a student, I'm always on the lookout for ways to make my life easier and more organized. Today, I'm sharing some DIY hacks that have been total game-changers for me. \n\nFirst up, a desk organizer using an old cardboard box. Just cut out some compartments, decorate it, and you're good to go. \n\nNext, a cable manager using a binder clip. No more tangled earphones or chargers. \n\nAnd lastly, a study planner using a notebook and some colorful pens. Stay on top of your assignments and deadlines with this simple hack.\n\n**",
+        "cta": "**\nTry these out and let me know in the comments below which one is your fave. Don't forget to follow me for more student tips and tricks, and tag a friend who needs to see this. #DIYhacks #StudentLife #ProductivityHacks",
+        "explanation": {
+            "topic_used": "diy hacks for students",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Mind Blown: Turn an old t-shirt into a reusable bag in just 5 minutes \"",
+        "body": "\"Hey guys, welcome back to my Instagram. Aaj main aapko ek super useful DIY hack bataunga jo aapke daily life ko bahut asaan banayega. Kabhi-kabhi humare paas kuch cheezein hoti hain jo hum use nahi kar paate, jaise ki purani CDs. Lekin aaj main aapko bataunga ki unhein kaise reuse kiya ja sakta hai. \n\nAap in purani CDs ko decorative wind chimes, coasters, ya phir even a beautiful mobile banane ke liye use kar sakte hain. Bas aapko thoda sa creativity aur thoda sa patience chahiye.",
+        "cta": "\"Toh guys, agar aapko ye DIY hack pasand aaya ho toh please like, comment, aur share karna mat bhoolna. Aur agar aapke paas bhi koi aisa DIY hack hai toh mujhe bhi bataiye, main usse apne agle reel mein zarur share karunga. #DIY #Sustainability #StudentLife\"",
+        "explanation": {
+            "topic_used": "diy hack ",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Let me explain diy hack quickly.",
+        "body": "Error generating content: Error code: 404 - {'error': {'message': 'The model `llama-3.3-nano` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+        "cta": "Follow for more such content.",
+        "explanation": {
+            "topic_used": "diy hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        },
+        "video_plan": {
+            "summary": "Video storyboard generated from the script.",
+            "prompt": "Create a short video reel storyboard based on the generated script.",
+            "scenes": [
+                {
+                    "timestamp": "0s",
+                    "duration_seconds": 5,
+                    "action": "Error generating content: Error code: 404 - {'error': {'message': 'The model `llama-3.3-nano` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+                    "visuals": "Error generating content: Error code: 404 - {'error': {'message': 'The model `llama-3.3-nano` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+                    "audio": "Error generating content: Error code: 404 - {'error': {'message': 'The model `llama-3.3-nano` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}",
+                    "text": "Error generating content: Error code: 404 - {'error': {'message': 'The model `llama-3.3-nano` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'code': 'model_not_found'}}"
+                }
+            ]
+        }
+    },
+    {
+        "hook": "\"Transform your dorm room on a dime with this GAME-CHANGING DIY hack \"",
+        "body": "\"Hey guys, welcome back to my Instagram. Aaj main aapko ek bahut hi useful DIY hack bataunga. Kabhi-kabhi humare paas kuch cheezein hoti hain jo hum use nahi kar paate, jaise ki purane CDs. Lekin aaj main aapko bataunga ki aap unhein kaise reuse kar sakte hain. Aap unhein decorative items banane ke liye use kar sakte hain, jaise ki wind chimes ya mirrors. Bas aapko CDs ko cut karna hoga aur unhein apni pasand ke hisaab se design karna hoga.\"",
+        "cta": "\"Toh doston, agar aapko yeh DIY hack pasand aaya hai, toh please like aur comment karein. Aur agar aapne kabhi CDs ko reuse kiya hai, toh apni photos share karein using hashtag #DIYHacksWithMe. Main aapke saath next reel mein milunga, tab tak ke liye bye!\"",
+        "explanation": {
+            "topic_used": "diy hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        },
+        "video_plan": {
+            "summary": "Video storyboard generated from the script.",
+            "prompt": "Create a short video reel storyboard based on the generated script.",
+            "scenes": [
+                {
+                    "timestamp": "0s",
+                    "duration_seconds": 5,
+                    "action": "```json",
+                    "visuals": "```json",
+                    "audio": "```json",
+                    "text": "```json"
+                },
+                {
+                    "timestamp": "5s",
+                    "duration_seconds": 5,
+                    "action": "{",
+                    "visuals": "{",
+                    "audio": "{",
+                    "text": "{"
+                },
+                {
+                    "timestamp": "10s",
+                    "duration_seconds": 5,
+                    "action": "\"summary\": \"A 30-second Instagram reel showcasing a DIY hack to reuse old CDs as decorative items\",",
+                    "visuals": "\"summary\": \"A 30-second Instagram reel showcasing a DIY hack to reuse old CDs as decorative items\",",
+                    "audio": "\"summary\": \"A 30-second Instagram reel showcasing a DIY hack to reuse old CDs as decorative items\",",
+                    "text": "\"summary\": \"A 30-second Instagram reel showcasing a DIY hack to reuse old CDs as decorative items\","
+                },
+                {
+                    "timestamp": "15s",
+                    "duration_seconds": 5,
+                    "action": "\"scene_count\": 5,",
+                    "visuals": "\"scene_count\": 5,",
+                    "audio": "\"scene_count\": 5,",
+                    "text": "\"scene_count\": 5,"
+                },
+                {
+                    "timestamp": "20s",
+                    "duration_seconds": 5,
+                    "action": "\"scenes\": [",
+                    "visuals": "\"scenes\": [",
+                    "audio": "\"scenes\": [",
+                    "text": "\"scenes\": ["
+                }
+            ]
+        }
+    },
+    {
+        "hook": "Let me explain diy hacks quickly.",
+        "body": "****\nHey guys, welcome back to my Instagram. Aaj main aapko kuch cool DIY hacks batane wala hoon jo aapke daily life ko easy banane mein madad karenge. \nPehla hack hai: Cable management. Kabhi-kabhi humare phone aur laptop ke cables itne zyada hotey hain ki humein samajh hi nahi aata ki unhein kaise manage karein. Iske liye aap apne purane cardboard ka use kar sakte hain. \nDusra hack hai: Notebook ki pages ko mark karne ke liye aap apne purane CD ka use kar sakte hain. \n\n**",
+        "cta": "**\nToh guys, umeed hai aapko ye DIY hacks pasand aaye honge. Agar aapko aur bhi aise hacks chahiye, toh mujhe comments mein bataiye. Aur agar aapko ye reel pasand aaya hai, toh please like aur share karna mat bhooliye. #DIYhacks #StudentLife #EasyHacks",
+        "explanation": {
+            "topic_used": "diy hacks",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Transform your space on a budget: 5-minute DIY hacks to level up your dorm room\"",
+        "body": "\"Hey guys, student life mai sabse bada problem hota hai time aur money manage karna. Aaj main aapko 3 easy DIY hacks bataungi jo aapke life ko easy banayenge. \n1. Use old jars to store stationary items, like pens, pencils, etc.\n2. Convert old t-shirts into reusable bags, perfect for grocery shopping or carrying books.\n3. Make a desk organizer using cardboard and glue, it's super easy and customizable.\n\nInka use karke aap apne daily life ko organize kar sakte hai, aur thoda paisa bacha sakte hai.",
+        "cta": "\"Try out these DIY hacks and let me know in the comments below which one is your favorite. Don't forget to follow me for more student life hacks and tips. #DIYhacks #StudentLife #ProductivityHacks\"",
+        "explanation": {
+            "topic_used": "diy hacks",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "This can change your thinking about diy hacks.",
+        "body": "\"Hey guys, welcome back to my channel! Aaj main aapko kuch cool DIY hacks dikhane wala hoon jo aapke daily life ko mast banayenge! \n\nPehla hack hai - aapke old CDs ko reuse karna. Aap inhein wind chimes ya decorative items banane ke liye use kar sakte hain.\n\nDoosra hack hai - aapke old jars ko reuse karna. Aap inhein pen holders ya makeup storage ke liye use kar sakte hain.\n\nTeesra hack hai - aapke old t-shirts ko reuse karna. Aap inhein bags ya cleaning rags banane ke liye use kar sakte hain.\n\nIn DIY hacks ko try karna bahut easy hai aur aapke paise bhi bachayenge!",
+        "cta": "\"Toh guys, agle video mein kya dekhna chahte ho? Mujhe comments mein batao! Aur agar aapko ye DIY hacks pasand aaye, toh please like aur share karo! #DIYHacks #StudentLife #Sustainability\"",
+        "explanation": {
+            "topic_used": "diy hacks",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Mind Blown: 5 DIY Hacks to Transform Your Dorm Room on a Budget\"",
+        "body": "\"Hey guys, welcome back to my Instagram. Aaj main aapko kuch cool DIY hacks dikhane wala hoon jo aapke daily life ko easy banayenge. \nPehla hack: Agar aapka phone ka charger kharaab ho gaya hai, toh aap usse ek magnet ki madad se fix kar sakte hain. \nDusra hack: Agar aapke paas koi empty plastic bottle hai, toh aap usse ek pen stand mein convert kar sakte hain. \nTeesra hack: Agar aapke paas koi old t-shirt hai, toh aap usse ek reusable bag mein convert kar sakte hain.",
+        "cta": "\"Toh guys, agar aapko ye DIY hacks pasand aaye toh please mujhe follow karein aur apne doston ke saath share karein. Aur agar aapke paas koi aur DIY hack hai, toh mujhe comments mein zaroor batayein. #DIYHacks #StudentLife #Sustainability\"",
+        "explanation": {
+            "topic_used": "diy hacks",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: Double your productivity in half the time\"",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga jo aapke studies mein bohot kaam aayega. Agar aapko kisi topic ki padhai karni hai, toh aap ek mind map bana sakte hain. Yeh aapko concepts ko visually organize karne mein madad karega, aur aapko samajhne mein bhi asaan hoga. \n\nMaine khud try kiya hai, aur mujhe bahut fayda hua hai. Aap bhi zarur try karein!",
+        "cta": "\"Toh ab aapne mind map banane ki koshish kab kar rahe hain? Mujhe comments mein bataiye, aur agar aapko aur hacks chahiye, toh mujhe follow karte rahein! #studentlife #studyhacks #mindmap\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: Double your productivity in half the time\"",
+        "body": "\"Hey friends, aaj main aapko ek cool hack bataunga. Kabhi-kabhi humare paas itne saare passwords hote hain, ki hum bhool jaate hain. Toh aaj main aapko bataunga ki aap apne passwords ko kaise manage kar sakte hain. \n\nMain use karta hoon password manager app, jisse mujhe apne saare passwords ko ek hi jagah par store karna padta hai. Isse mujhe apne passwords ko yaad rakhne ki zarurat nahi hoti, aur main easily access kar sakta hoon.\n\nAur ek aur hack, main apne phone ki settings mein two-factor authentication ko enable karta hoon, jisse mera account aur bhi secure ho jata hai.",
+        "cta": "\"Toh doston, agar aap bhi apne passwords ko manage karna chahte hain, toh comment section mein mujhe bataiye. Aur agar aapko yeh hack pasand aaya, toh reel ko like aur share kijiye. #passwordmanagement #studentlife #hack\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "This can change your thinking about hack.",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga jo aapke studies ko easy banane mein madad karega. Agar aapke paas bohot saari notes hai aur aapko yaad rakhna mushkil lag raha hai, toh main aapko ek trick bataunga. Aap apni notes ko summary mein likh sakte hai, jisse aapke paas sirf important points rahege. Isse aapko revision karna bhi easy ho jayega.",
+        "cta": "\"Toh guys, try out this hack and let me know in the comments ki aapko kaisa laga. Aur agar aapko aur bhi study hacks chahiye, toh mujhe follow karna na bhulein. #studyhack #studentlife\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "This can change your thinking about hack.",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga jo aapke studies mein bohot madad karega. Kabhi-kabhi humare paas itna sa time hota hai ki hum sochte hai ki kya karein, toh main aapko bataunga ki aap apne extra time ko kaise use kar sakte hain. \n\nJaise ki agar aapko koi topic samajh nahi aa raha, toh aap usko 5-10 minute ke liye chor kar ke kisi aur cheez par focus kar sakte hain. Aur phir wapas aa kar us par focus kar sakte hain. \n\nYa phir aap apne notes ko revise kar sakte hain, ya koi naya topic seekh sakte hain. \n\nIs hack se aapka time bachega aur aapke studies mein improvement bhi hoga.\"",
+        "cta": "\"Toh guys, agle baar jab aapko extra time mile, toh is hack ko zaroor try karna. Aur agar aapke paas bhi koi aisa hack hai, toh mujhe comments mein bataiye. #studentlife #studyhacks #productivity\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: Double your productivity in half the time\"",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga jo aapke studies mein bohot kaam aayega! \nYeh hai 'Pomodoro Technique'. Isme aap 25 minutes study karte ho, phir 5 minutes break lete ho. \nIsse aapka focus badhega aur aapko fatigue bhi nahi hogi. Try karo aur dekhna, kitna effective hai!\"",
+        "cta": "\"Comment below and let me know if you've tried this hack before! #PomodoroTechnique #StudyHacks #StudentLife\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Let me explain hack quickly.",
+        "body": "\"Hey guys, aaj main aapko ek simple hack bataunga jo aapke student life ko bahut aasan bana dega! \nKya aapke paas kabhi notes revise karne ke liye waqt nahi hota? \nToh main aapko bataunga ki kaise aap apne notes ko 10 minutes mein revise kar sakte hain! \nBas aapko apne notes ko ek flashcard mein convert karna hoga, aur phir aapko sirf uss flashcard ko revise karna hoga! \nAap try karo aur mujhe batao ki aapko ye hack kaisa laga!\"",
+        "cta": "\"Follow me for more such hacks and study tips! \n#studentlife #studyhacks #productivity\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Did you know this about hack?",
+        "body": "\"Hey friends, aaj main aapko ek kaam ka hack bataunga. Kabhi-kabhi humare paas itne saare tabs khule hote hain ki hum confused ho jaate hain. Toh, main aapko bataunga ki kaise aap apne browser ke tabs ko organize kar sakte hain. \n\nAap chrome mein 'Tab Groups' feature use kar sakte hain. Isse aap apne tabs ko categories mein divide kar sakte hain, jaise ki 'Study', 'Entertainment', 'Work' etc. \n\nIske alawa, aap 'Pinned Tabs' feature bhi use kar sakte hain, jisse aapke important tabs hamesha upar rahein.",
+        "cta": "\"Toh, ab aapne bhi apne browser ke tabs ko organize karna shuru kar diya? Mujhe comment mein batayein ki aapke paas aur koi hack hai! #productivityhacks #studentlife #organization\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "This can change your thinking about hack.",
+        "body": "\"Hey guys, aaj mai aapko ek kaam ka hack bataunga. Kabhi kabhi humare pass itna kaam hota hai ki hum samajh nahi pate ki kaise manage karein. Toh is hack ke saath, aap apne kaam ko easily manage kar sakte hain. Yeh hai 'Pomodoro Technique'. Isme aap 25 minutes kaam karte hain, phir 5 minutes break lete hain. Isse aapka dimaag fresh rahega aur aapka kaam bhi jaldi ho jayega.",
+        "cta": "\"Toh guys, ye hack try karo aur mujhe batayo ki ye aapke liye kaam karta hai ya nahi. Aur agar aapke paas koi aur hack hai, toh mujhe comments me batao. Follow me for more productivity hacks #productivityhacks #studentlife\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: Double your productivity in half the time\"",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga jo aapke studies mein bohot kaam aayega. Agar aapko kisi bhi topic ko yaad rakhna hota hai, toh aapko yeh try karna chahiye. \n\nEk piece of paper lekar uspe key points likhna shuru karo, phir uske baad un points ko explain karte hue apne words mein likho. Isse aapko wo topic easily yaad ho jayega. \n\nMujhe ye hack bohot kaam aaya hai, aur main ummeed karta hun ki aapke liye bhi ye kaam karega.",
+        "cta": "\"Toh guys, try out this hack and let me know in the comments below if it works for you. Aur agar aapke paas koi aur hack hai, toh woh bhi share karo. Don't forget to follow me for more study tips and tricks @yourhandle\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Stop scrolling! Here's something about hack.",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga jo aapke studies ko bohot asaan banayega! \nJab bhi aap notes banate ho, toh ek alag section me important points likhna mat bhoolna. \nIsse aapko revision karte time bohot madad milegi aur aap apne exams me accha perform kar payenge.",
+        "cta": "\"Toh doston, apne studies ko easy banana chahte ho? Toh ye hack try karo aur apne friends ke saath share karo! #StudentLife #StudyHacks #ExamPrep\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: I just discovered a simple trick to boost your productivity by 50% in just 5 minutes a day Want to know what it is? #hack #productivityhacks #studentlife\"",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga jo aapke studies mein bohot madad karega. Agar aapko koi topic samajh nahi aa raha, toh aap usko cartoon ya animation ke madhyam se samjha sakte hain. Jaise ki agar aapko science mein photosynthesis samajh nahi aa raha, toh aap usko ek cartoon ke madhyam se samjha sakte hain. Yeh hack aapke brain ko visually engage karega aur aapko concepts ko easily remember karne mein madad karega.",
+        "cta": "\"Toh guys, apne studies ko mazeedar banane ke liye yeh hack try karo aur mujhe batayo ki aapke paas koi aur hack hai jo aapne apne studies mein use kiya hai. Comment section mein apne hacks share karo, aur agar aapko yeh reel pasand aaya hai toh please like aur share karo! #StudentLife #StudyHacks #LearnWithMe\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: Double your productivity in half the time, want to know how? \" #hack #productivityhacks #studentlife",
+        "body": "\"Hey guys, aaj main aapko ek productivity hack bataunga jo mujhe bahut kaam aaya hai. Kabhi-kabhi humare paas itna kaam hota hai ki hum samajh nahi paate ki kaise manage karein. Toh maine ek trick try kiya, jo ki Pomodoro Technique hai. \n\nIsmein aap 25 minutes kaam karte hain, phir 5 minutes break lete hain. Isse aapka focus badhta hai aur aapke dimaag ko rest bhi milta hai. Main isse past week se try kar raha hoon aur mujhe lagta hai ki yeh actually kaam karta hai!",
+        "cta": "\"Toh agar aap bhi apni productivity badhana chahte hain, toh try karo Pomodoro Technique aur mujhe batao ki aapke liye kaunsa hacks kaam karte hain! Comment section mein apne favorite hacks share karo! #productivityhacks #studentlife #pomodoro\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Mind blown by these 5-second hacks that will change your student life forever\"",
+        "body": "****\nHey guys, welcome back to my Instagram reel. Aaj main aapko kuch cool hacks bataunga jo mujhe padhai ke time bohot kaam aaye. \n\nPehla hack: To-do list banane ka. Yeh ek simple hack hai, lekin bohot effective. Apne din ke goals likh kar apne phone pe save kar lo. \n\nDusra hack: Note-making ka. Apne notes ko colourful banayein, taaki wo aapko easily yaad rahein. \n\nTeesra hack: Time management ka. Apne din ko time slots mein divide kar lo, taaki aap sab kuch manage kar saken. \n\n**",
+        "cta": "**\nTry out these hacks and let me know in the comments below if they help you guys out! If you have any other hacks, share them with me too! #studenthacks #productivityhacks #studylife",
+        "explanation": {
+            "topic_used": "hacks",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Most people ignore this about hack.",
+        "body": "\"Hey guys, aaj main aapko ek cool hack bataunga. Kabhi-kabhi humare paas itna time nahi hota ki hum apne notes ko organize kar sakein, right? Toh is hack ke saath, aap apne notes ko easily organize kar sakte hain. Bas aapko ek folder aur ek pen chahiye. \n\nAap apne subjects ke hisaab se folders banayein, jaise ki maths, science, aur history. Phir aap apne notes ko uss hisaab se organize karein. Isse aapke notes clean aur tidy rahenge, aur aapko padhai mein bhi madad milegi.",
+        "cta": "\"Toh guys, try out this hack and let me know in the comments ki yeh hack aapke liye kaisa raha! Aur agar aapke paas bhi koi cool hack hai, toh mujhe zaroor batayein! #studentlife #organizationhacks #productivity\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: Double your productivity in half the time\"",
+        "body": "\"Hey guys, student life mein hum sabko kabhi na kabhi notes banane ki problem hoti hai, right? Aaj main aapko ek simple hack bataunga jo aapki notes ko organize karne mein madad karega. \nYeh hai 'Pomodoro Technique' - 25 minutes padhna, 5 minutes break. Isse aapki productivity badhegi aur aapke notes bhi acche se banenge. \nAur haan, ek aur hack - apne notes ko color code karke, jisse aapko samajhne mein asani hogi ki kaunsa topic kaunse chapter mein hai.\"",
+        "cta": "\"Toh doston, agar aapko yeh hack pasand aaya hai, toh comment mein 'yes' likhna aur agar aapke paas bhi koi aisa hack hai, toh share karna. Don't forget to follow me for more such student life hacks @yourhandle\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Life hack alert: You won't believe this 1-minute trick to boost your productivity\" #Hack #ProductivityHacks #StudentLife",
+        "body": "\"Hey guys, welcome back to my Instagram. Aaj main aapko ek cool hack bataunga jo aapke studies mein bohot madad karega. Agar aapko kisi bhi topic ko yaad rakhna hai, toh aapko mind maps banani chahiye. Yeh aapke brain ke liye ek visual tool hai jo aapko information ko organize karne mein madad karta hai. \n\nMaine khud try kiya hai aur mujhe results bahut ache mile hain. Aap bhi try karo aur mujhe batayo ki aapko kaisa lagta hai.",
+        "cta": "\"Toh guys, abb aapne bhi mind maps banao aur apne studies ko easy banao. Niche comment section mein mujhe batayo ki aapne kabhi mind maps try kiye hain ya nahi. Aur agar aapko aur koi hack chahiye, toh mujhe follow karo aur bell icon ko press karo taaki aapko mere sare reels pehle mil jayein. #mindmaps #studyhacks #studentlife\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is ready to level up their grades? \"",
+        "body": "\"Hey guys, namaste! Exam season is here and I know we're all stressed. But don't worry, I've got some study tips to share with you. Pehle, make a timetable and stick to it. Set aside dedicated time for each subject, and don't forget to take breaks. Dusra, use active recall techniques like making flashcards or quizzing yourself. And teesra, stay organized - keep all your notes and study materials in one place. Trust me, it makes a huge difference!\"",
+        "cta": "\"Try these tips out and let me know how they work for you! Share your own study hacks in the comments below, and don't forget to follow me for more study content @studentlife123 #studytips #examseason #studentlife\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is trying to adult by studying, but still can't adult by doing their laundry?\"",
+        "body": "\"Hey friends, exam season is here and I know we're all struggling to stay on top of our studies. Main problem hai ki hume samajh nahi aata ki kahan se shuru karein. So, I wanted to share with you guys my favorite study tips. Pehla, make a to-do list and prioritize your tasks. Doosra, break down your studying into smaller chunks, like 25-minute focused sessions with 5-minute breaks. Teesra, use active recall techniques like flashcards and quizzing yourself.",
+        "cta": "\"Try these tips out and let me know in the comments if they work for you! If you have any other study tips, share them with me too! #studytips #examseason #productivityhacks\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Most people ignore this about study.",
+        "body": "\"Hey guys, namaste! Exam season is here and I know we're all stressed. But don't worry, I've got some study tips to share with you. Firstly, make a timetable and stick to it, yaar. Break down your study material into smaller chunks, and focus on one topic at a time. Use flashcards, diagrams, and mind maps to help you remember key concepts. And, take breaks, guys! Your brain needs rest too. \n\nI personally use the Pomodoro technique - 25 minutes of study, 5 minutes of break. It really helps me stay focused.",
+        "cta": "\"Comment below and share your favorite study tips with me! Let's help each other out. And, if you found these tips helpful, give this reel a like and share it with your friends. Follow me for more study-related content and let's ace our exams together! #studytips #examseason #studentlife\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Study smarter, not harder Who else is ready to level up their learning game? #StudyTips #ProductivityHacks\"",
+        "body": "\"Hey guys, Namaste! \nExams ke time hai and I know studies ki tension ho rahi hogi. \nAaj main aapko bataunga ki kaise effectively padhai kar sakte ho. \nFirst, apne goals set karo - daily, weekly, monthly. \nPhir, apne schedule banayo aur usse follow karo. \nRevision bhi zaruri hai, to har din thoda time revise karne ke liye nikaalo. \nAnd, last but not least, apne health ka bhi dhyan rakho - exercise, meditation, aur healthy food khao.",
+        "cta": "\"Toh doston, aapke study tips kya hain? Mujhe comment section mein batao! \nAur, agar aapko ye video pasand aaya, toh like, share, aur subscribe karna mat bhoolo! #StudyTips #ExamPrep #StudentLife\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Most people ignore this about study.",
+        "body": "\"Hey friends, exam season is here and I know we're all stressed about studying. But don't worry, I've got some tips to help you ace your exams. Firstly, make a timetable and stick to it. Break down your study material into smaller chunks, and focus on one topic at a time. Use flashcards, diagrams, and mind maps to help you remember key concepts. And, most importantly, take breaks! Don't study for hours at a stretch, take a 10-15 minute break to refresh your mind. Trust me, it works!\"",
+        "cta": "\"Follow me for more study tips and tricks, and let's ace our exams together! Use hashtag #StudyWithMe and share your own study tips in the comments below\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is ready to level up their study game?\"",
+        "body": "\"Hey guys, exam season is here and I know we're all stressed. But don't worry, maine aapke liye kuch study tips share kiye hai. Pehla, apne notes ko organize karo, sab kuch systematic hona chahiye. Doosra, apne time ko manage karo, ek schedule banalo aur uska palan karo. Teesra, regular breaks lena mat bhoolo, dimaag ko rest bhi zaroori hai. \n\nAur haan, maine ek aur cheez discover ki hai - active recall technique. Isme aap apne notes ko revise karte ho, lekin sirf padhne ke bajaye, aap questions bhi banate ho aur unka jawab dene ki koshish karte ho. Bahut effective hai, try karo!",
+        "cta": "\"Toh doston, in tips ko follow karo aur apne exams ko ace karo! Agar aapke paas bhi koi study tips hai, toh comment section me share karo. Aur agar aapko ye video helpful laga, toh like aur share karna mat bhoolo! #studytips #exams #studentlife\"",
+        "explanation": {
+            "topic_used": "study ",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is ready to level up their grades?\"",
+        "body": "\"Hey friends, aaj main aapko bataunga ki kaise effectively study kar sakte hain. Pehla step hai, apne goals set karna - daily, weekly, aur monthly. Phir, apne study material ko organize karna, jaise ki notes, textbooks, aur online resources. Aur sabse important, regular breaks lena, taaki aapka dimaag fresh rahe.\n\nMain personally Pomodoro technique use karta hoon - 25 minutes study, 5 minutes break. Bahut effective hai! Aap apne tareeke se experiment kar sakte hain.",
+        "cta": "\"Toh doston, aapka study routine kaisa hai? Mujhe comments me batao! Aur agar aapko yeh tips helpful lage, toh reel ko like aur share karna mat bhoolo. Happy studying! #studytips #studentslife\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is trying to adult by hitting those study goals? Let's get focused and crush this semester together\"",
+        "body": "\"Hey guys, exam season is here and I know we're all stressed. But don't worry, I've got some study tips that actually work. Firstly, make a timetable and stick to it. Break down your study material into smaller chunks, and focus on one topic at a time. Use flashcards to memorize key terms and concepts, and practice with sample papers. And most importantly, take breaks and stay hydrated. \n\nMain thing, guys, consistent raho and focused raho. Apne goals ko achieve karne ke liye, apne schedule ko follow karo.",
+        "cta": "\"Share your favorite study tips in the comments below and let's help each other out. Follow me for more study content and productivity hacks @yourhandle. #studytips #examseason #productivityhacks\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is ready to level up their study game?\"",
+        "body": "\"Hey guys, exam season is here and I know we're all stressed. But don't worry, I've got some study tips that actually work. Firstly, make a schedule and stick to it. Break down your study material into smaller chunks, and focus on one topic at a time. Use flashcards, they're super helpful for memorizing key terms. And, take breaks, it's important to give your brain some rest. \n\nMain thing, guys, is to stay consistent and not cram everything at the last minute. Trust me, I've been there and it's not fun.",
+        "cta": "\"Comment below and share your favorite study tips with me. Let's help each other out and ace these exams! #studytips #exams #students\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is ready to level up their grades?\"",
+        "body": "\"Hey guys, namaste! Exams ke liye study karna hai, lekin kaise? Main aaj tumhe bataunga apne study tips. Pehla, apne goals set karo, ki tumhe kya padhna hai, aur kab tak. Phir, apne study material ko organize karo, jaise notes, textbooks, aur online resources. Aur sabse zaruri, time management! Apne study time ko divide karo, aur breaks bhi lo, taaki tum fresh rahe.",
+        "cta": "\"Ab tumhara turn! Apne study tips humein comment mein batao, aur agar tumhe yeh video pasand aaya, to like aur share karo! #studytips #exampreparation #studentlife\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is ready to level up their grades?\"",
+        "body": "\"Hey guys, exam season is here and I know we're all stressed. But don't worry, I've got some study tips that actually work. Firstly, make a timetable and stick to it. Break down your study material into smaller chunks, and use flashcards to remember key terms. Aur agar aapko koi concept samajh nahi aata, to YouTube pe videos dekho, they're really helpful.",
+        "cta": "\"Follow me for more study tips and tricks, and let's ace these exams together! #studywithme #examseason #studentslife\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "This can change your thinking about funny.",
+        "body": "\"Hey guys, kaam karte waqt sabse zyada kya hota hai? Procrastination, right? Main aaj tumhe bataunga 5 funny ways to avoid studying, lekin dhyaan rahe, yeh sab sirf mazak mein hai, warna tumhari exams mein toot jaoge! \n1. Khana banana - aaj kal maine dekha hai ki hum sab khana banane mein expert ho gaye hain, bas studies ko bhoolne ke liye.\n2. Netflix - tumne kabhi notice kiya hai ki Netflix par tumhari favorite show ki ek episode dekhne ke liye tum 5 hours waste kar sakte ho?\n3. Social media - Instagram, Facebook, Twitter - inmein se koi bhi platform chune, aur tumhare paas time waste karne ke liye bahut saari cheezein milengi.\n4. Gaming - agar tumhe gaming ka shauk hai, to tum jaante hi honge ki ek game khelte waqt kitna time guzar sakta hai.\n5. Sapne dekhna - maine suna hai ki sapne dekhna bhi ek tarah ki productivity hai, lekin maine abhi tak yeh nahi samjha ki kaise!\"",
+        "cta": "\"Toh dosto, agar tumhe bhi aise funny ways milte hain studies ko avoid karne ke liye, to comments mein share karo! Aur agar tumhe yeh reel pasand aaya, to like aur share karke apne doston ke saath bhi share karo! #StudentLife #Procrastination #FunnyWays\"",
+        "explanation": {
+            "topic_used": "funny",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Who else is trying to adult by studying, but still can't adult by waking up on time?\"",
+        "body": "\"Hey friends, exam season is here and I know we're all stressed. But don't worry, I've got some study tips that actually work. Firstly, make a time table and stick to it. Set small, achievable goals for each study session. Secondly, use the Pomodoro technique - 25 minutes of study + 5 minutes break. And lastly, revise regularly, don't cram everything at the last minute. Trust me, it makes a huge difference.",
+        "cta": "\"Comment below and share your favorite study tips with me. Let's ace these exams together! #StudyTips #ExamSeason #StudentLife\"",
+        "explanation": {
+            "topic_used": "study",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"SWEAT ALERT: What's the one exercise that can boost your energy and transform your body in just 10 minutes a day? Let's get fit together! #fitnessmotivation #studentlife\"",
+        "body": "\"Hey guys, namaste! As students, we're always on the go, but it's super important to take care of our physical health, right? \nMaine recently apne fitness routine ko change kiya hai, and I've seen some amazing results. \nI've started with small, achievable goals - like walking for 30 minutes every day, or doing a quick 10-minute workout in the morning. \nIt's all about consistency, guys! \nAnd the best part? You can do it anywhere, anytime - even in your hostel room or during a break between classes.",
+        "cta": "\"So, who's with me? Let's get fit, feel amazing, and crush our exams! Share your own fitness tips in the comments below, and don't forget to follow me for more student-friendly content #fitnessmotivation #studentlife\"",
+        "explanation": {
+            "topic_used": "fittness",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Sweat now, slay later\"",
+        "body": "\"Hey friends, namaste! As a student, I know it can be tough to prioritize fitness, but trust me, it's worth it. Exercise can help boost your energy levels, improve your focus, and even reduce stress. \nI've started with small changes, like taking the stairs instead of the lift, or doing a quick 10-minute workout in my hostel room. You can try bodyweight exercises like push-ups, squats, or lunges. \nI've also started tracking my progress, and it's really motivating to see how far I've come.",
+        "cta": "\"So, who's with me? Let's make fitness a part of our daily routine. Share your favorite workout tips in the comments below, and let's get fit together! #fitnessmotivation #studentlife #healthyliving\"",
+        "explanation": {
+            "topic_used": "fitness",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"Unlock your productivity with this ONE simple hack that will change your study game forever\"",
+        "body": "\"Hey friends, aaj main aapko ek cool hack bataunga jo aapki productivity badhane mein madad karega. \nAapne kabhi notice kiya hai ki aapke phone ki battery kabhi kabhi jaldi khatam ho jaati hai? \nIske liye main aapko ek simple hack bataunga - aap apne phone ki battery health check kar sakte hain. \nSettings mein jaakar 'Battery' option par click karein, aur phir 'Battery Health' par click karein. \nYahan aap dekh sakte hain ki aapki battery kitni healthy hai, aur agar zarurat ho toh aap use optimize bhi kar sakte hain.\"",
+        "cta": "\"Toh doston, apne phone ki battery health check karne ke liye yeh hack try karo aur mujhe batayo ki aapko yeh hack kaisa laga? \nComment section mein apne thoughts share karo, aur agar aapko aur bhi hacks chahiye toh mujhe follow karo @studenthacks\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "\"WARNING: Your exams just got HACKED! Discover the secret study hacks to ACE your exams this semester\"",
+        "body": "\"Hey guys, today I'm sharing some tips on how to stay safe online, especially when it comes to hacking. So, what is hacking? Well, it's basically when someone tries to access your personal info or data without your permission. Now, I know some of you might be thinking, 'But how do I prevent it?' Don't worry, I've got you covered. Here are a few simple tips:\n\nFirst, use strong and unique passwords for all your accounts. It's like locking your room, you wouldn't use the same key for all your doors, right?\n\nSecond, enable two-factor authentication. It's like having a second lock on your door, it makes it harder for someone to get in.\n\nThird, be careful what you click on. Don't click on any suspicious links or download any files from unknown sources.\n\nAnd lastly, keep your software and apps up to date. It's like updating your phone's operating system, it helps protect you from any security bugs.\n\nSo, there you have it, guys. Follow these tips and you'll be safe from hackers in no time. Happy learning!\"",
+        "cta": "\"Stay safe online, guys! Follow these tips and let me know in the comments if you have any other tips to share. Don't forget to like, comment, and subscribe for more content like this. #stay safe #hacking #online safety\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
+    },
+    {
+        "hook": "Did you know this about hack?",
+        "body": "\"Hey guys, what's up? So, I've been hearing a lot about 'hack' these days and, honestly, a lot of people don't even know what it means. So, let me break it down for you in simple words. A hack is basically a shortcut or a clever way to do something. It can be a tool, a technique, or even a trick that saves you time and effort.\n\nAs a student, I've learned a few hacks that have changed my life. Like, have you ever tried the Pomodoro technique? It's a hack that helps you stay focused and productive by breaking down your study sessions into short intervals. Or, have you ever heard of the '2-minute rule'? It's a hack that says if a task can be done in less than 2 minutes, just do it immediately.\n\nThese hacks might seem small, but trust me, they can make a big difference. So, if you want to learn more hacks and become more productive, stay tuned for my next video. And, if you already know some cool hacks, share them with me in the comments below!\"",
+        "cta": "\"Hit that follow button for more productive tips and tricks! #productivityhacks #studentlife #stayfocused\"",
+        "explanation": {
+            "topic_used": "hack",
+            "tone_used": "Informative",
+            "platform_used": "Instagram",
+            "strategy": "The script uses a Informative tone to better suit Instagram users.",
+            "hook_logic": "The first 3 seconds are designed as a 'Pattern Interrupt' to stop the scroll.",
+            "message": "Script generated successfully based on your specific inputs."
+        }
     }
 ]
