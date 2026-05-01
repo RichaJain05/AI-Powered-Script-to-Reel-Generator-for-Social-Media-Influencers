@@ -22,7 +22,7 @@ document.addEventListener("DOMContentLoaded", function(){
 
         document.getElementById("output").innerHTML = "<p>Generating script...</p>";
 
-        fetch("/generate-reel", {
+        fetch("https://reel-generator-backend.onrender.com/generate-reel", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
