@@ -6,3 +6,4 @@ moviepy
 Pillow
 groq
 python-dotenv
+google-generativeai
