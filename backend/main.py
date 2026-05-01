@@ -51,8 +51,7 @@ def generate_reel(data: ReelRequest):
 
 @app.post("/generate-video")
 def generate_video(data: VideoRequest):
-    # Now that the model matches the frontend, you can use data.script_content directly
-    script_to_use = data.script_content
+    output_file = generate_ai_video(data.script_content)
     
     if not script_to_use:
         return {"error": "Script content is empty"}

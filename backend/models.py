@@ -9,5 +9,4 @@ class ReelRequest(BaseModel):
 
 
 class VideoRequest(BaseModel):
-    
     script_content: str
