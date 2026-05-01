@@ -9,7 +9,7 @@ from video_engine import generate_ai_video
 from fastapi.responses import FileResponse
 from fastapi.staticfiles import StaticFiles
 import os
-
+api_key = os.getenv("GOOGLE_API_KEY")
 app = FastAPI()
 
 # 1. UPDATED ORIGINS
