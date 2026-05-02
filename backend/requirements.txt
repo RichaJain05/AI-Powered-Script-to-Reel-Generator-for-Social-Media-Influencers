@@ -7,4 +7,3 @@ Pillow
 groq
 python-dotenv
 google-generativeai
-openai
